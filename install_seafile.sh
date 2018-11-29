@@ -46,8 +46,6 @@ function install_sea() {
 	osip=$(curl https://api.ip.sb/ip)
 	echo "------------------------------------------------------"
 	echo "恭喜，安装完成。请访问：http://${osip}:8000"
-	echo "帮助文档请访问：https://www.xiaoz.me/archives/8480"
-	echo "阿里云用户请注意放行端口(8000/8082)：https://www.xiaoz.me/archives/9310"
 	echo "------------------------------------------------------"
 }
 
