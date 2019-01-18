@@ -21,7 +21,7 @@ function chk_firewall() {
 
 function install_sea() {
 	cd /home/MyCloud
-	wget http://seafile-downloads.oss-cn-shanghai.aliyuncs.com/seafile-server_6.2.3_x86-64.tar.gz
+	wget https://obs-nina.obs.cn-south-1.myhuaweicloud.com:443/seafile-server_6.2.3_x86-64.tar.gz
 	tar -zxvf seafile-server_6.2.3_x86-64.tar.gz
 	mkdir installed
 	mv seafile-server*.tar.gz ./installed
@@ -42,7 +42,7 @@ function install_sea() {
 	osip=$(curl https://api.ip.sb/ip)
 	echo "------------------------------------------------------"
 	echo "install done, please visit: http://${osip}:8000"
-	echo "thanks the scripts offered by xiaoz."
+	echo "thanks the scripts offered by xiaoz.If violate your rights, please contact me to delete.QQ:811972833"
 	echo "------------------------------------------------------"
 }
 
